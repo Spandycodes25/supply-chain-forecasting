@@ -1,0 +1,31 @@
+[0m19:16:31.167586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ec81a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d63c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d63b10>]}
+
+
+============================== 19:16:31.170363 | 7403c90b-78bc-40c7-ad1b-1f85e13c166e ==============================
+[0m19:16:31.170363 [info ] [MainThread]: Running with dbt=1.11.2
+[0m19:16:31.170625 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'use_colors': 'True', 'target_path': 'None', 'write_json': 'True', 'no_print': 'None', 'version_check': 'True', 'partial_parse': 'True', 'debug': 'False', 'introspect': 'True', 'invocation_command': 'dbt init supply_chain_dbt', 'printer_width': '80', 'fail_fast': 'False', 'log_path': 'logs', 'log_cache_events': 'False', 'quiet': 'False', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/spandan/.dbt'}
+[0m19:16:31.178438 [info ] [MainThread]: Creating dbt configuration folder at /Users/spandan/.dbt
+[0m19:16:31.179524 [debug] [MainThread]: Starter project path: /Users/spandan/Documents/supply-chain-forecasting/venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m19:16:31.183476 [info ] [MainThread]: 
+Your new dbt project "supply_chain_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:16:31.183745 [info ] [MainThread]: Setting up your profile.
+[0m19:18:02.214780 [info ] [MainThread]: Profile supply_chain_dbt written to /Users/spandan/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m19:18:02.217362 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 91.08275, "process_in_blocks": "0", "process_kernel_time": 0.124743, "process_mem_max_rss": "124059648", "process_out_blocks": "0", "process_user_time": 0.952854}
+[0m19:18:02.218104 [debug] [MainThread]: Command `dbt init` succeeded at 19:18:02.218019 after 91.08 seconds
+[0m19:18:02.218421 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d6a8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042a0b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e2cd10>]}
+[0m19:18:02.218709 [debug] [MainThread]: Flushing usage events
+[0m19:18:02.378937 [debug] [MainThread]: An error was encountered while trying to flush usage events

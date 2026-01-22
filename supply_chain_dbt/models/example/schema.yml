@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: raw
+    database: supply_chain
+    schema: main
+    tables:
+      - name: sales
+      - name: stores
+      - name: transactions
+      - name: holidays
+      - name: oil_prices
+
+models:
+  - name: daily_store_sales
+    description: "Daily sales aggregated by store with store metadata"
+    columns:
+      - name: store_nbr
+        description: "Store number identifier"
+      - name: date
+        description: "Transaction date"
+      - name: daily_revenue
+        description: "Total sales for the store on this date"
