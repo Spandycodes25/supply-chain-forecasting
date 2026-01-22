@@ -56,11 +56,11 @@ The analysis revealed that Type A flagship stores generate 161% higher sales tha
 ### Prophet Model Analysis
 
 **Forecast with Seasonality**
-![Prophet Forecast](images/prophet-forecast.png)
+![Prophet Forecast](images/prophet_forecast.png)
 *Complete forecast visualization showing historical fit and 15-day ahead predictions with uncertainty bands*
 
 **Seasonal Decomposition**
-![Prophet Components](images/prophet-components.png)
+![Prophet Components](images/prophet_components.png)
 *Decomposed view revealing 44% growth trend, 40% weekend effect, and 45% December seasonality boost*
 
 ## Technical Implementation
